@@ -1,0 +1,45 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<head>
+	<nav>
+  <ul>
+    <li>Valeurs</li>
+    <a href="/partial/competence/competences.html" ><li>Compétences</li></a>
+    <li>Situations</li>
+    <li>Actualités</li>
+	<li>Favoris</li>
+  </ul>
+</nav>
+	<div class="wrapper">
+	<div class="module">
+		<div class="openNav">
+			<div class="icon"></div>
+		</div>
+		<img style="max-width: 100%;height:auto;" src="../../img/backcomp.png" height="458" width="100%" alt="background">
+		<a href="/partial/valeur/valeur.html"><p class="nextL"><</p></a>
+		<a href="/partial/situation/situation.html"><p class="nextR">></p></a>
+	</div>
+	</head>
+	<body>
+		<div class="bando"><p>Je veux...</p></div>
+		
+		<div class="case"><p>donner du sens ...</p></div>
+		<a href="energie.html"><div class="case"><p>transmettre de l'énergie ...</p></div></a>
+		<div class="case"><p>développer ...</p></div>
+		<div class="case"><p>professionnaliser ...</p></div>
+		<div class="case"><p>aménager ...</p></div>
+	</body>
+	</div>
+	<script>
+	$(".openNav").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(this).toggleClass("open");
+});
+	
+	</script>
+</html>
+

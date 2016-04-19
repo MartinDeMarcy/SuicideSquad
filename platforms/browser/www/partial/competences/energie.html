@@ -1,0 +1,44 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<head>
+	<nav>
+  <ul>
+    <a href="../valeur/valeur.html"><li>Valeurs</li></a>
+    <a href="competences.html" ><li>Compétences</li></a>
+    <a href="../situation/situation.html"><li>Situations</li></A>
+    <li>Actualités</li>
+	<li>Favoris</li>
+  </ul>
+</nav>
+	<div class="wrapper">
+	<div class="module" style="background-color: #0A609A;">
+		<div class="openNav">
+			<div class="icon"></div>
+		</div>
+		<div class="energie"><h1>Transmettre de l'énergie</h1></div>
+		<div id='cssmenu'>
+		<ul>
+			<li><a href="definition.html"><img class="def" src="../../img/definition.png"><p>Definition</p></a></li>
+			<li><a href="comportement.html"><img class="comp" src="../../img/comportement.png"><p>Comportement</p></a></li>
+			<li><a href="energie.html"><img class="fic" src="../../img/fiche.png"><p>Fiche outils</p></a></li>
+		</ul>
+</div>
+	</div>
+	</head>
+	<body>
+		<div class="case"><p>En individuel</p></div>
+		<div class="case"><p>Valoriser une action</p></div>
+		<div class="case"><p>En collectif</p></div>
+	</body>
+	</div>
+	<script>
+	$(".openNav").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(this).toggleClass("open");
+});
+	
+	</script>
+</html>
