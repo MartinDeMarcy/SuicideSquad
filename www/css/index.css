@@ -131,7 +131,6 @@ img{
 	display: inline-table;
 	text-align:center;
 	background-color: rgba(219, 232, 251, 0.81);
-	font-size:-webkit-xxx-large;
 }
 
 .case p{
@@ -175,19 +174,23 @@ nav {
 }
 nav ul {
   width: 250px;
-  top:34%;
-  position:relative;
+    top: 24%;
+    left: 18%;
+    position: relative;
 }
 nav ul:hover li {
   color: rgba(255, 255, 255, 0.5);
 }
 nav ul li {
   transition-duration: 0.25s;
-  display: block;
-  padding: 51px;
-  font-size: 97px;
-  color: white;
-  letter-spacing: 0.02em;
+    display: block;
+    padding: 53px;
+    font-size: 61px;
+    color: white;
+    letter-spacing: 0.02em;
+	left: 35%;
+	position:relative;
+	
 }
 nav ul li:hover {
   cursor: pointer;
@@ -263,13 +266,19 @@ a {
   background-color: white;
   width: 100%;
   height: 100%;
-  position: relative;
+  bottom: 0;
+  position: absolute;
+  overflow-y:auto;
 
   }
 .wrapper.open {
   transform: translateX(250px) translateY(50px);
   -webkit-transform: translateX(87%) translateY(52%);
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  bottom: 46%;
+    height: 69%;
+    right: 10%;
+    width: 69%;
 }	
 
 .nextL{
@@ -295,7 +304,7 @@ a {
 
 .energie{
 	margin: auto;
-    left: 28%;
+    left: 36%;
     font-size: 22px;
     color: white;
     position: absolute;
@@ -305,51 +314,56 @@ a {
 }
 
 .def{
-	position: absolute;
-    bottom: 2%;
-    width: auto;
-    height: 100%;
+	width: auto;
+    position: absolute;
+    height: 120;
+    left: 8%;
+    top: 8%;
 	
 }
 
 .comp{
 	position: absolute;
-    height: 100%;
-    bottom: 2%;
+    height: 130px;
+    left: 42%;
     width: auto;
+    top: 8%;
 	
 	
 }
 
 .fic{
 	position: absolute;
-    bottom: 2%;
-    height: 100%;
+    /* bottom: 2%; */
+    height: 125;
+    right: 8%;
+    top: 8%;
+    width: auto;
 }
 
 .defp{
 	position: absolute;
-    top: 16%;
+    top: 15%;
     left: 9%;
     color: white;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .compp{
 	position: absolute;
     left: 42%;
-    top: 16%;
-    font-size: 22px;
+    top: 15%;
+    font-size: 25px;
     color: white;
 	
 }
 
 .ficp{
 	position: absolute;
-    top: 16%;
-    font-size: 22px;
+    top: 15%;
+    font-size: 25px;
     color: white;
-    right: 10%;
+    right: 9%;
 	
 }
 
@@ -358,7 +372,6 @@ a {
     color: white;
     position: absolute;
     left: 13%;
-	display:block;
     top: 19%;
     font-size: 28px;
 }
@@ -368,7 +381,6 @@ a {
     color: white;
     position: absolute;
     left: 49%;
-	display:block;
     top: 19%;
     font-size: 28px;
 }
@@ -399,7 +411,8 @@ a {
 .imgsaur{
 	position: absolute;
     left: 9%;
-    top: 2%;
+    top: 1%;
+    height: 74px;
     width: auto;
 }
 
@@ -411,4 +424,129 @@ a {
     left: 36%;
     color: white;
     font-family: roboto bold;
+}
+
+.ficheslide{
+	height:7.5%;
+	width:100%;
+	background-color:white;
+}
+
+.titrefiche{
+	text-align:center;
+	font-family:roboto bold;
+	font-size:30px;
+	position: relative;
+    top: 27%;
+}
+
+.bookmark{
+	width:100%;
+	height:7.5%;
+	background-color:#29C329;
+}
+
+.bfooter{
+	height:22.6%;
+	width:100%;
+	background-color: #0A609A;
+}
+
+.headfiche{
+	background-color: #0A609A;
+	height:7.5%;
+	width:100%;
+}
+
+.bar{
+	height:8.5%;
+	width:100%;
+	background-color: #0A609A;
+}
+
+.titrecate{
+	position: absolute;
+    color: white;
+    top: 2%;
+    font-size: 21px;
+    left: 30%;
+}
+
+.interet{
+	height: 54.9%;
+    width: 100%;
+    position: relative;
+    background-color: white;
+	
+}
+
+ul li {
+	padding:9%;
+	
+}
+
+.fav{
+	width: auto;
+    position: absolute;
+    top: 19%;
+    right: 50%;
+}
+
+.imgfoot1{
+	width: auto;
+    left: 10%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.imgfoot2{
+	width: auto;
+    position: absolute;
+    bottom: 3%;
+    left: 30%;
+}
+
+.imgfoot3{
+	width: auto;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+}
+
+
+.imgfoot4{
+	width: auto;
+    bottom: 3%;
+    left: 70%;
+    position: absolute;
+}
+
+.titrefoot{
+	text-align: center;
+    color: white;
+    font-family: roboto bold;
+    padding-top: 46px;
+    font-size: 35px;
+}
+
+.search{
+	width: 100%;
+    position: relative;
+    height: 150px;
+	text-align: center;
+    font-size: 35px;
+	
+}
+
+.casesit{
+	height:23%
+	width:100%;
+	font-size:36px;
+}
+
+.imgmenu{
+	position:absolute;
+	left:0px;
+	height:110px;
+	width:auto;
 }

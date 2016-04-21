@@ -1,16 +1,18 @@
 <html>
+<meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="../../css/index.css">
+<script src="../../js/angular.min.js"></script>
+<script src="../../js/script.js"></script>
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 	<head>
 	<nav>
   <ul>
-    <a href="../valeur/valeur.html"><li>Valeurs</li></a>
-    <a href="../competences/competences.html" ><li>Compétences</li></a>
-    <a href="situation.html"><li>Situations</li></a>
-    <li>Actualités</li>
-	<li>Favoris</li>
+    <a href="../valeur/valeur.html"><img class="imgmenu" src="../../img/valeurs_blanc.png" height="110" width="100%"><li>Valeurs</li></a>
+    <a href="../competences/competences.html" ><img class="imgmenu" src="../../img/competences_blanc.png" height="110" width="100%" ><li>Compétences</li></a>
+    <a href="situation.html"><img class="imgmenu" src="../../img/situations_blanc.png" height="110" width="100%" ><li>Situations</li></a>
+    <a href=""><img class="imgmenu" src="../../img/actus_blanc.png"><li>Actualités</li></a>
+	<a href=""><img class="imgmenu" src="../../img/coeur_blanc.png"><li>Favoris</li></a>
   </ul>
-</nav>
 	<div class="wrapper">
 	<div class="module">
 		<div class="openNav">
@@ -23,13 +25,18 @@
 		<a href="/partial/valeur/valeur.html"><p class="nextR">></p></a>
 	</div>
 	</head>
-	<body>
-		<div class="bando"><p>Recherche, tapez vos mots-clés</p></div>	
-		<div class="case"><p>promouvoir</p></div>
-		<div class="case"><p>fédérer</p></div>
-		<div class="case"><p>motiver</p></div>
-	</body>
-	</div>
+	 <body ng-app="filterExample">
+    <div class="casesit" ng-controller="filterController">
+        <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
+          <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
+           <a href="../competences/fiche{{ fiche.index }}.html" ><div style="height:100px;border: 1px solid grey;padding-left:20px;padding-top:10px;" > {{fiche.title}}</div></a>
+          </div>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  </div>
+	</nav>
 	<script>
 	$(".openNav").click(function() {
   $("body").toggleClass("navOpen");
