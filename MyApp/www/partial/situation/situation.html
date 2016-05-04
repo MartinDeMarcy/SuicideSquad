@@ -1,0 +1,49 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
+<script src="../../js/angular.min.js"></script>
+<script src="../../js/script.js"></script>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<head>
+	<nav>
+  <ul>
+    <a href="../valeur/valeur.html"><img class="imgmenu" src="../../img/valeurs_blanc.png" height="110" width="100%"><li class="limenu">Valeurs</li></a>
+    <a href="../competences/competences.html" ><img class="imgmenu" src="../../img/competences_blanc.png" height="110" width="100%" ><li class="limenu">Compétences</li></a>
+    <a href="situation.html"><img class="imgmenu" src="../../img/situations_blanc.png" height="110" width="100%" ><li class="limenu">Situations</li></a>
+    <a href=""><img class="imgmenu" src="../../img/actus_blanc.png"><li class="limenu">Actualités</li></a>
+	<a href=""><img class="imgmenu" src="../../img/coeur_blanc.png"><li class="limenu">Favoris</li></a>
+  </ul>
+	<div class="wrapper">
+	<div class="module">
+		<div class="openNav">
+			<div class="icon"></div>
+		</div>
+		<img class="imgsaur" src="../../img/saur_logo_blanc.png" height="110" width="100%">
+		<h1 class="titremodule">Situations</h1>
+		<img class="imgvaleur" src="../../img/situations_blanc.png" height="270" width="100%" >
+		<a href="/partial/competences/competences.html"><p class="nextL"><</p></a>
+		<a href="/partial/valeur/valeur.html"><p class="nextR">></p></a>
+	</div>
+	</head>
+	 <body ng-app="filterExample">
+    <div class="casesit" ng-controller="filterController">
+        <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
+          <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
+           <a href="../competences/fiche{{ fiche.index }}.html" ><div style="height:13%;border: 1px solid grey;padding-left:10%;padding-top:8%;font-size: -webkit-xxx-large;color:black;" > {{fiche.title}}</div></a>
+          </div>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  </div>
+	</nav>
+	<script>
+	$(".openNav").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(this).toggleClass("open");
+});
+	
+	</script>
+</html>
