@@ -34,20 +34,26 @@
 		<meta charset="UTF-8">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
+        <script src="js/jquery-2.2.2.min.js"></script>
+        <script type="text/javascript" src="js/ripple.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/animsition.min.js"></script>
+        <script type="text/javascript" src="js/animpages.js"></script>
         <title>SAUR</title>
     </head>
     <body>
-		<div class="background"><img style="max-width: 100%;height:auto;" src="../img/background.jpg" height="2000" width="100%"></div>
-		<div class="bloc1">
-			<a href="/partial/valeur/valeur.html"<div class="valeur"><img src="../img/valeurs.png"><p class="titreindex">valeurs</p></div></a>
-			<a href="/partial/competences/competences.html"><div class="competence"><img src="../img/competences.png"><p class="titreindex">compétences</p></div></a>
-		</div>
-		<div class="app">
-        </div>
-			<a href=""><div class="actualite"><img src="../img/actualites.png"><p class="titreindex">actualités</p></div></a>
-			<a href="/partial/situation/situation.html"><div class="solutions"><img src="../img/situation.png"><p class="titreindex">situation</p></div></a>
-			<a href="favoris.html"><div class="favoris"><img src="../img/bookmark.png"><p class="titreindex">favoris</p></div></a>
-		<script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <div class="animsition">
+            <div class="background"><img style="max-width: 100%;height:auto;" src="../img/background.jpg" height="2000" width="100%"></div>
+                <div class="bloc1">
+                    <div class="valeur"><a href="/partial/valeur/valeur.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="2000">
+                        <img src="../img/valeurs.png"><p class="titreindex">valeurs</p></div></a>
+                    <div class="competence"><a href="/partial/competences/competences.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="2000"><img src="../img/competences.png"><p class="titreindex">compétences</p></div></a>
+                <div class="app">
+                </div>
+                    <a href=""><div class="actualite"><img src="../img/actualites.png"><p class="titreindex">actualités</p></div></a>
+                    <div class="solutions"><a href="/partial/situation/situation.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="2000"><img src="../img/situation.png"><p class="titreindex">situation</p></div></a>
+                    <div class="favoris"><a href="favoris.html"><img src="../img/bookmark.png"><p class="titreindex">favoris</p></div></a>
+            </div>
     </body>
 </html>
