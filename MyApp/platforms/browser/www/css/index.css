@@ -134,16 +134,17 @@ img{
 }
 
 .case p{
-	position:absolute;
-	left:10%;
-	font-size: 35;
-	color: inherit;
+	padding: 44px;
+    font-size: 45;
+    text-align: left;
+    font-size: 35;
+    color: inherit;
 	
 }
 
 .bando p {
 	padding: 8%;
-	font-size: 35px;
+	font-size: 45px;
 	color: #304682;
 	font-family:Roboto;
 	
@@ -634,8 +635,10 @@ ul li {
 
 .txtfiche{
 	padding: 46px;
+    font-family: 'Roboto', sans-serif;
     width: 700px;
     color: #2e427e;
+    font-size: 35px;
     left: 6%;
     position: relative;
 }
@@ -649,12 +652,14 @@ ul li {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-  font-size: 45px;
+ background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: 38px;
+    font-family: roboto sans-serif;
+    font-style: italic;
 }
 blockquote:before {
   color: #ccc;
@@ -680,18 +685,13 @@ blockquote p {
 }
 
 .chezsaur{
-	font-size:45px;
-	color: #2e427e;
-	font-weight: 600;
+	font-size: 40px;
+    color: #2e427e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
-.nextLoutil{
-	float:left;
-}
 
-.nextRoutil{
-	float:right;
-}
 
 .chevron::before {
 	border-style: solid;
