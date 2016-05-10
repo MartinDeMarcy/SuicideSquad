@@ -349,6 +349,11 @@ a {
 	
 }
 
+.compimg{
+    position: relative;
+    left: 20%
+}
+
 .fic{
 	position: absolute;
     /* bottom: 2%; */
