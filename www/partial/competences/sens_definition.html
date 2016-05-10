@@ -1,0 +1,51 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
+<link href="../../css/hamburger/dist/hamburgers.css" rel="stylesheet">
+<script src="../../js/jquery-2.2.2.min.js"></script>
+<meta charset="UTF-8">
+	<head>
+	<nav>
+  <ul>
+    <a href="../valeur/valeur.html"><img class="imgmenu" src="../../img/valeurs_blanc.png" height="110" width="100%"><li class="limenu">Valeurs</li></a>
+    <a href="competences.html" ><img class="imgmenu" src="../../img/competences_blanc.png" height="110" width="100%" ><li class="limenu">Compétences</li></a>
+    <a href="../situation/situation.html"><img class="imgmenu" src="../../img/situations_blanc.png" height="110" width="100%" ><li class="limenu">Situations</li></a>
+     <a href=""><img class="imgmenu" src="../../img/actus_blanc.png"><li class="limenu">Actualités</li></a>
+	<a href=""><img class="imgmenu" src="../../img/coeur_blanc.png"><li class="limenu">Favoris</li></a>
+  </ul>
+	<div class="wrapper">
+	<div class="module" style="background-color: #0A609A;">
+		<div class="openNav">
+			<div class="icon" onclick="history.go(-1)"></div>
+		</div>
+		<img class="imgsaur" src="../../img/saur_logo_blanc.png" height="110" width="100%">
+		<div class="energie"><h1>Donner du sens</h1></div>
+		<div class="imgic">
+			<a href="sens_definition.html"><img class="def" src="../../img/definition_blanc.png" height="160" width="160"><p class="defp">Définition</p><li class="dot1"></li></a>
+			<a href="sens_comportement.html"><img class="comp" src="../../img/comportement.png" height="160" width="160"><p class="compp">Comportement</p></a>
+			<a href="sens_fiches.html"><img class="fic" src="../../img/ficheoutil.png" height="160" width="160"><p class="ficp">Fiche outils</p></a>
+		</div>
+	</div>
+	</head>
+	<body>
+		<div class="interet">
+					<ul class="ulfiche">
+						<h3 class="chezsaur">Chez SAUR, donner du sens c'est :</h3>
+						<li class="txtfiche" style="font-size:45px;">Donner du sens au métier</li>
+						<li class="txtfiche" style="font-size:45px;">Donner du sens à l’action </li>
+						<li class="txtfiche" style="font-size:45px;">Donner du sens en informant du contexte pour faire le lien entre la stratégie de l’entreprise et les actions concrètes</li>
+						<blockquote>Celui qui possède un pourquoi qui le fait vivre peut supporter tous les comment</blockquote>
+					</ul>
+			</div>
+	</body>
+	</div>
+</nav>
+	<script>
+	$(".openNav").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(this).toggleClass("open");
+});
+
+	</script>
+</html>
