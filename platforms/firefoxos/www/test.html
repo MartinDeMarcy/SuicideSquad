@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exemple 1 du filtre filter</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/script.js"></script>
+    <div class="wrapper">
+    <div class="module">
+      <div class="openNav">
+        <div class="icon"></div>
+      </div>
+      <img class="imgsaur" src="img/saur_logo_blanc.png" height="110" width="100%">
+      <h1 class="titremodule">Situations</h1>
+      <img class="imgvaleur" src="img/situations_blanc.png" height="270" width="100%" >
+      <a href="/partial/competences/competences.html"><p class="nextL"><</p></a>
+      <a href="/partial/valeur/valeur.html"><p class="nextR">></p></a>
+    </div>
+  </head>
+
+  <body ng-app="filterExample">
+    <div class="casesit" ng-controller="filterController">
+        <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
+          <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
+            <div style="height:100px;">{{fiche.title}}</div>
+          </div>
+        </tbody>
+      </table>
+    </div>
+  </body>
+
+</html>
+
+
+                

@@ -579,14 +579,14 @@ ul li {
 	width: auto;
     position: absolute;
     height: 146px;
-    left: 23%;
+    left: 20%;
     top: 7%;
 }
 
 .defv{
 	position: absolute;
     top: 14%;
-    left: 24%;
+    left: 21%;
     color: white;
     font-size: 34px;
 }
@@ -595,7 +595,7 @@ ul li {
 	list-style-type: disc;
     color: white;
     position: absolute;
-    left: 30%;
+    left: 27%;
     top: 18%;
     font-size: 28px;
 }
@@ -621,13 +621,13 @@ ul li {
     color: white;
     position: absolute;
     right: 30%;
-    top: 19%;
-    font-size: 28px;
+    top: 18%;
+    font-size: 39px;
 }
 
 .titreindex{
 	position: relative;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
     color: #4646AF;
@@ -745,4 +745,31 @@ blockquote p {
     width: 700px;
     left: 6%;
     position: relative;
+}
+
+.nextRcomp{
+  display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-width: 1px;
+    transform: rotate(45deg);
+    position: relative;
+    right: 4%;
+    bottom: 34px;
+    float: right;
+}
+
+.nextLcomp{
+   display: block;
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-width: 1px;
+    position: relative;
+    transform: rotate(225deg);
+    top: 9px;
+    left: 34px;
 }
