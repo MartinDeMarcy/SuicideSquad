@@ -29,19 +29,16 @@
 	</div>
 	</head>
 	 <body ng-app="filterExample">
-         <div class="animsition" data-animsition-in-class="fade-in-right-sm"
-  data-animsition-in-duration="1000"
-  data-animsition-out-class="fade-out-right-sm"
-  data-animsition-out-duration="800">
-    <div class="casesit" ng-controller="filterController">
-        <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
-          <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
-           <a href="../competences/fiche{{ fiche.index }}.html" ><div style="height:13%;border: 1px solid grey;padding-left:10%;padding-top:8%;font-size: -webkit-xxx-large;color:black;" > {{fiche.title}}</div></a>
-          </div>
-        </tbody>
-      </table>
+         <div class="animsition" data-animsition-in-class="fade-in-right-sm" data-animsition-in-duration="1000"
+          data-animsition-out-class="fade-out-right-sm"
+          data-animsition-out-duration="800">
+            <div class="casesit" ng-controller="filterController">
+              <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
+              <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
+                  <a href="../competences/fiche_{{ fiche.index }}.html" ><div style="height:13%;border: 1px solid grey;padding-left:10%;padding-top:8%;font-size: -webkit-xxx-large;color:black;" > {{fiche.title}}</div></a>
+              </div>
+      </div>
     </div>
-    </div
   </body>
   </div>
 	</nav>
