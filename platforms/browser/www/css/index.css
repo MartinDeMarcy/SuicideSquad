@@ -18,6 +18,7 @@
  */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -526,22 +527,22 @@ ul li {
 	width: auto;
     position: absolute;
     bottom: 3%;
-    left: 30%;
+    left: 32%;
 }
 
 .imgfoot3{
 	width: auto;
     position: absolute;
     bottom: 3%;
-    left: 50%;
+    right: 32%;
 }
 
 
 .imgfoot4{
 	width: auto;
     bottom: 3%;
-    left: 70%;
     position: absolute;
+    right: 10%;
 }
 
 .titrefoot{
@@ -549,7 +550,7 @@ ul li {
     color: white;
     font-family: 'Roboto', sans-serif;
     padding-top: 25px;
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .search{
@@ -772,4 +773,12 @@ blockquote p {
     transform: rotate(225deg);
     top: 9px;
     left: 34px;
+}
+
+.titrecompvaleur{
+  position: absolute;
+    right: 20%;
+    top: 14%;
+    font-size: 34px;
+    color: white;
 }
