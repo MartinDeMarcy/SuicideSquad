@@ -14,7 +14,7 @@
 	<div class="wrapper">
 	<div class="module" style="background-color: #0A609A;">
 		<div class="openNav">
-			<div class="icon"></div>
+			<a href="competences.html"><span class="arrowl" >&larr;</span></a>
 		</div>
 		<img class="imgsaur" src="../../img/saur_logo_blanc.png" height="110" width="100%">
 		<div class="energie"><h1>Professionnaliser ses équipes</h1></div>
@@ -32,9 +32,10 @@
 						
 					<a href="fiche_savoirrealiser1.html"><div class="case"><p style="text-align: initial;">Savoir réaliser une intégration apprenante 1/2</p></div></a>
 					<a href="fiche_savoirrealiser2.html"><div class="case"><p style="text-align: initial;">Savoir réaliser une intégration apprenante 2/2</p></div></a>
-					<a href="fiche_savoirtraitererreur.html"><div class="case"><p style="text-align: initial;">Savoir développer les compétences/traiter une erreur pédagogique</p></div></a>	
-					<a href="fiche_savoirbriefercollaborateur.html"><div class="case"><p style="text-align: initial;">Savoir développer les compétences/briefer un collaborateur avant une action de jeu</p></div></a>	
-					<a href="fiche_savoirrealiserdebriefing.html"><div class="case"><p style="text-align: initial;">Savoir développer les compétence/réaliser un débriefing apprenant</p></div></a>	
+					<div class="case" id="ancre0"><p style="text-align: initial;">Savoir développer les compétences</p>
+					<a href="fiche_savoirtraitererreur.html"><p id="ancre1" style="text-align: initial;display:none;font-size:26px;">Traiter une erreur pédagogique</p></a>	
+					<a href="fiche_savoirbriefercollaborateur.html"><p id="ancre2" style="text-align: initial;display:none;font-size:26px;">Briefer un collaborateur avant une action de jeu</p></a>	
+					<a href="fiche_savoirrealiserdebriefing.html"><p id="ancre3" style="text-align: initial;display:none;font-size:26px;">Réaliser un débriefing apprenant</p></a></div>
 					<a href="fiche_savoiraccompagnerprojet.html"><div class="case"><p style="text-align: initial;">Savoir accompagner le projet professionel</p></div></a>
 					<a href="fiche_savoiraccompagnerformation.html"><div class="case"><p style="text-align: initial;">Savoir accompagner la formation</p></div></a>
 						
@@ -49,5 +50,20 @@
   $(this).toggleClass("open");
 });
 
+
+$(document).ready(function(){
+        $('#ancre0').click(function(){
+            $('#ancre0').css('height', 341);
+            $('#ancre1').css('display', 'list-item');
+            $('#ancre2').css('display', 'list-item');
+            $('#ancre3').css('display', 'list-item');
+            $('#ancre1').css('margin-left', 100);
+            $('#ancre2').css('margin-left', 100);
+            $('#ancre3').css('margin-left', 100);
+            $('#ancre1').css('padding', 0);
+            $('#ancre2').css('padding', 0);
+            $('#ancre3').css('padding', 0);
+        });
+        })
 	</script>
 </html>

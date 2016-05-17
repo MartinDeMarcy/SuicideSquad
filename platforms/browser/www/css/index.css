@@ -145,7 +145,7 @@ img{
 	padding: 8%;
 	font-size: 45px;
 	color: #304682;
-	font-family:Roboto;
+	font-family:'Roboto', sans-serif;
 	
 }
 
@@ -221,10 +221,10 @@ nav ul li:hover {
   cursor: pointer;
 }
 .openNav .icon {
-  transition-duration: 0.2s;
+   transition-duration: 0.2s;
   position: absolute;
-  width: 30px;
-  height: 2px;
+  width: 45px;
+  height: 3px;
   background-color: white;
   top: 24px;
   left: 10px;
@@ -235,15 +235,15 @@ nav ul li:hover {
   background-color: white;
   position: absolute;
   content: "";
-  width: 30px;
-  height: 2px;
+  width: 45px;
+  height: 4px;
   left: 0px;
 }
 .openNav .icon:before {
-  top: -7px;
+  top: -11px;
 }
 .openNav .icon:after {
-  top: 7px;
+  top: 10px;
 }
 
 .openNav.open .icon {
@@ -580,14 +580,14 @@ ul li {
 	width: auto;
     position: absolute;
     height: 146px;
-    left: 20%;
+    left: 12%;
     top: 7%;
 }
 
 .defv{
 	position: absolute;
     top: 14%;
-    left: 21%;
+    left: 13%;
     color: white;
     font-size: 34px;
 }
@@ -596,7 +596,7 @@ ul li {
 	list-style-type: disc;
     color: white;
     position: absolute;
-    left: 27%;
+    left: 19%;
     top: 18%;
     font-size: 28px;
 }
@@ -630,6 +630,7 @@ ul li {
 	position: relative;
 	font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: bolder;
     text-transform: uppercase;
     color: #4646AF;
 }
@@ -657,7 +658,7 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-    font-size: 17px;
+    font-size: 20px;
     font-family: roboto sans-serif;
     font-style: italic;
 }
@@ -685,7 +686,7 @@ blockquote p {
 }
 
 .chezsaur{
-	font-size: 40px;
+	font-size: 30px;
     color: #2e427e;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -777,8 +778,14 @@ blockquote p {
 
 .titrecompvaleur{
   position: absolute;
-    right: 20%;
+    right: 10%;
     top: 14%;
     font-size: 34px;
     color: white;
+}
+
+.arrowl {
+    font-size: 55px;
+    color: white;
+    margin-left: 15px;
 }
