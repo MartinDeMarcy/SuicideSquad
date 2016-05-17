@@ -35,7 +35,7 @@
             <div class="casesit" ng-controller="filterController">
               <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
               <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
-                  <a href="../competences/fiche_{{ fiche.index }}.html" ><div style="height:13%;border: 1px solid grey;padding-left:10%;padding-top:8%;font-size: 35px;color:black;" > {{fiche.title}}</div></a>
+                  <a href="../competences/fiche_{{ fiche.index }}.html" ><div style="height:13%;border: 1px solid grey;padding-left:5%;padding-top:8%;font-size: 35px;color:black;font-weight: 600;color: #2e427e;" > {{fiche.title}}</div></a>
               </div>
       </div>
     </div>
