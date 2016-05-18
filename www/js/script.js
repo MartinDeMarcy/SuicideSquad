@@ -87,7 +87,7 @@ angular.module('filterExample', [])
     "keywords": "Erreur problème trouver une solution remobiliser encourager apprendre faux pas entretien individuel réunion",
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Savoir développer les compétences / traiter une erreur pédagogique",
-    "path": "fiche_triater_err/fiche_savoirtraitererreur.html"
+    "path": "fiche_traiter_err/fiche_savoirtraitererreur.html"
   },
   {
     "index": "savoirbriefercollaborateur",
