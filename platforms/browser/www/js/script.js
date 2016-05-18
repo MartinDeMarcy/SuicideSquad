@@ -23,7 +23,7 @@ angular.module('filterExample', [])
     "keywords": "motiver individuel collaborateur féliciter rendez-vous remobiliser encourager entretien récompenser résultat valoriser",
     "mainTitle": "Transmettre de l'énergie",
     "title": "Savoir valoriser individuellement",
-    "path": "fiche_valoriser_ind/fiche_savoirvaloriserindividua.html"
+    "path": "fiche_valoriser_ind/fiche_savoirvaloriserindividu.html"
   },
   {
     "index": "savoirmesurercollectif",
