@@ -319,13 +319,13 @@ a {
 
 .energie{
 	margin: auto;
-    bottom: 15%;
-    font-size: 28px;
+    bottom: 6%;
+    font-size: 45;
     color: white;
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    text-align: center;
+    text-align: center; 
 	
 }
 
@@ -788,4 +788,8 @@ blockquote p {
     font-size: 55px;
     color: white;
     margin-left: 15px;
+}
+
+body{
+  margin:0;
 }
