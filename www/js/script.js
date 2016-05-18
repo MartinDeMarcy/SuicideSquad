@@ -164,7 +164,7 @@ angular.module('filterExample', [])
     "index": "savoirtraiterconflit",
     "keywords": "conflit collaborateurs éviter régler altercation problème interne différend désaccord",
     "mainTitle": "Faire vivre les valeurs",
-    "title": "Savoir triater un conflit entre deux collaborateur",
+    "title": "Savoir traiter un conflit entre deux collaborateur",
     "path": "fiche_traiter_conflit/fiche_savoirtraiterconflit.html"
   },
 ];
