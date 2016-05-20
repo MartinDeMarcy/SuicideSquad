@@ -86,21 +86,21 @@ angular.module('filterExample', [])
     "index": "savoirtraitererreur",
     "keywords": "Erreur problème trouver une solution remobiliser encourager apprendre faux pas entretien individuel réunion",
     "mainTitle": "Proféssionaliser ses équipes",
-    "title": "Savoir développer les compétences / traiter une erreur pédagogique",
+    "title": "Traiter une erreur pédagogique",
     "path": "fiche_traiter_err/fiche_savoirtraitererreur.html"
   },
   {
     "index": "savoirbriefercollaborateur",
     "keywords": "réunion individuel entretien briefer collaborateur motiver action mission préparer rdv",
     "mainTitle": "Proféssionaliser ses équipes",
-    "title": "Savoir développer les compétences / briefer un collaborateur avant une action de jeu",
+    "title": "Briefer un collaborateur avant une action de jeu",
     "path": "fiche_briefer_collab/fiche_savoirbriefercollaborateur.html"
   },
   {
     "index": "savoirrealiserdebriefing",
     "keywords": "débrief faire un point collaborateur résultat tirer des enseignements valoriser fécilitier progresser entretien individuel",
     "mainTitle": "Proféssionaliser ses équipes",
-    "title": "Savoir développer les compétences / réaliser un debriefing apprenant",
+    "title": "Réaliser un debriefing apprenant",
     "path": "fiche_realiser_deb/fiche_savoirrealiserdebriefing.html"
   },
   {
