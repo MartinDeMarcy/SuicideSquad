@@ -581,12 +581,12 @@ ul li {
     position: absolute;
     height: 146px;
     left: 12%;
-    top: 7%;
+    top: 31%;
 }
 
 .defv{
 	position: absolute;
-    top: 14%;
+    top: 65%;
     left: 13%;
     color: white;
     font-size: 34px;
@@ -597,7 +597,7 @@ ul li {
     color: white;
     position: absolute;
     left: 19%;
-    top: 18%;
+    top: 82%;
     font-size: 28px;
 }
 
@@ -606,13 +606,13 @@ ul li {
     height: 146px;
     right: 24%;
     width: auto;
-    top: 7%;
+    top: 31%;
 }
 
 .compv{
 	position: absolute;
     right: 11%;
-    top: 14%;
+    top: 65%;
     font-size: 34px;
     color: white;
 }
@@ -622,7 +622,7 @@ ul li {
     color: white;
     position: absolute;
     right: 30%;
-    top: 18%;
+    top: 82%;
     font-size: 39px;
 }
 
