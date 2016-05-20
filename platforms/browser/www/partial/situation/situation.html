@@ -18,30 +18,36 @@
     </nav>  
     <div class="wrapper">
       <head>
+          <div class="animsition" data-animsition-in-class="fade-in-right-sm"
+                                 data-animsition-in-duration="1000"
+                                 data-animsition-out-class="fade-out-right-sm"
+                                 data-animsition-out-duration="800">
         	<div class="module">
         		<div class="openNav">
         			<div class="icon"></div>
         		</div>
         		<img class="imgsaur" src="../../img/saur_logo_blanc.png" height="110" width="100%">
         		<h1 class="titremodule">Situations</h1>
-        		<img class="imgvaleur" src="../../img/situations_blanc.png" height="270" width="100%" >
+        		<img class="imgvaleur" src="../../img/situations_blanc.png">
         		<a href="/partial/competences/competences.html"><p class="nextLcomp"><</p></a>
         		<a href="/partial/valeur/valeur.html"><p class="nextRcomp">></p></a>
         	</div>
+          </div>
   	</head>
   	 <body ng-app="filterExample">
-           <div class="animsition" data-animsition-in-class="fade-in-right-sm" data-animsition-in-duration="1000"
-            data-animsition-out-class="fade-out-right-sm"
-            data-animsition-out-duration="800">
+         <div class="animsition" data-animsition-in-class="fade-in-right-sm"
+                                 data-animsition-in-duration="1000"
+                                 data-animsition-out-class="fade-out-right-sm"
+                                 data-animsition-out-duration="800">
               <div class="casesit" ng-controller="filterController">
                 <input class="search" type="text" placeholder="Recherche, tapez vos mots-clés" height="30%" width="100%" ng-model="searchText"/>
                 <div ng-repeat="fiche in fiches | filter:{keywords:searchText}">
                     <a href="../competences/{{ fiche.path }}" ><div style="height:13%;border: 1px solid grey;padding-left:5%;padding-top:8%;font-size: 35px;color:black;font-weight: 600;color: #2e427e;" > {{fiche.title}}</div></a>
                 </div>
-        </div>
-      </div>
+              </div>
+         </div>
     </div>
-  </body>
+    </body>
 	<script>
 	$(".openNav").click(function() {
     $("body").toggleClass("navOpen");
