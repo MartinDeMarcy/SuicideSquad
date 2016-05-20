@@ -75,13 +75,13 @@ angular.module('filterExample', [])
     "title": "Savoir réaliser une intégration apprenante 1/2",
     "path": "fiche_realiser/fiche_savoirrealiser1.html"
   },
-  {
+ /* {
     "index": 31,
     "keywords": "",
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Savoir réaliser une intégration apprenante 2/2",
     "path": ""
-  },
+  },*/
   {
     "index": "savoirtraitererreur",
     "keywords": "Erreur problème trouver une solution remobiliser encourager apprendre faux pas entretien individuel réunion",
