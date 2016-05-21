@@ -629,8 +629,8 @@ position: absolute;
     color: #2e427e;
     font-size: 1em;
     display: list-item;
-    width: 300;
-    padding: 12px;
+    width: 260;
+    padding: 17px;
     left: 6%;
     position: relative;
 }
@@ -677,6 +677,8 @@ blockquote p {
 
 .chezsaur{
 	  font-size: 1em;
+    position: relative;
+    left: 10px;
     color: #2e427e;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -767,10 +769,10 @@ left: 5%;
 }
 
 .titrecompvaleur{
-  position: absolute;
-    right: 10%;
-    top: 14%;
-    font-size: 1em;
+ position: absolute;
+    right: 5%;
+    top: 12.5%;
+    font-size: 0.8em;
     color: white;
 }
 
@@ -797,6 +799,19 @@ body{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
 }
 
 /* Portrait */
@@ -810,6 +825,18 @@ body{
   font-size:0.2em;
 }
 
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
 }
 
 
@@ -822,6 +849,19 @@ body{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
 
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
 }
 
 /* Portrait */
@@ -831,6 +871,18 @@ body{
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: portrait) {
 
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
 
 }
 
@@ -844,6 +896,19 @@ body{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
 }
 
 /* Portrait */
@@ -852,6 +917,7 @@ body{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
   and (orientation: portrait) {
+
 
 }
 
