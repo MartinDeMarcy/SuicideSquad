@@ -297,8 +297,8 @@ a {
     border-width: 1px;
     position: relative;
     transform: rotate(225deg);
-    top: 50px;
-    left: 34px;
+    left: 4%;
+    top: 16px;
 }
 
 .nextR{
@@ -311,6 +311,7 @@ a {
     transform: rotate(45deg);
     position: relative;
     right: 4%;
+    bottom: 36px;
     float: right;
 }
 
@@ -446,10 +447,12 @@ a {
 }
 
 .titrefiche{
-	text-align:center;
-	font-family: 'Roboto', sans-serif;
-	color:#345994;
-	font-size: 33px;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #345994;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 25px;
     font-weight: 600;
 }
 
@@ -462,7 +465,7 @@ a {
 }
 
 .bfooter{
-	height: 18%;
+	height: 100%;
 	width:100%;
 	background-image:linear-gradient(#0073ad, #2f4480);
 	
@@ -489,7 +492,7 @@ font-size: 1.2em;
 }
 
 .interet{
-	height: 54.9%;
+	height: 48.9%;
     width: 100%;
     position: relative;
     background-color: white;
@@ -504,6 +507,7 @@ ul li {
 
 .fav{
 	width: auto;
+    height:20px;
     position: absolute;
     top: 19%;
     right: 50%;
@@ -512,6 +516,7 @@ ul li {
 .imgfoot1{
 	width: auto;
     left: 10%;
+    height: 40px;
     bottom: 3%;
     position: absolute;
 }
@@ -520,12 +525,14 @@ ul li {
 	width: auto;
     position: absolute;
     bottom: 3%;
+    height: 40;
     left: 32%;
 }
 
 .imgfoot3{
 	width: auto;
     position: absolute;
+    height: 40;
     bottom: 3%;
     right: 32%;
 }
@@ -534,6 +541,7 @@ ul li {
 .imgfoot4{
 	width: auto;
     bottom: 3%;
+    height: 40;
     position: absolute;
     right: 10%;
 }
@@ -542,8 +550,7 @@ ul li {
 	text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-top: 25px;
-    font-size: 38px;
+    font-size: 1em;
 }
 
 .search{
