@@ -481,11 +481,11 @@ a {
 }
 
 .titrecate{
-position: relative;
-    color: white;
-    bottom: 26%;
+font-size: 1.2em;
+    margin: 0 auto;
     text-align: center;
-    font-size: 26px;
+    padding-top: 10px;
+    color: white;
 }
 
 .interet{
@@ -611,9 +611,8 @@ position: absolute;
 	list-style-type: disc;
     color: white;
     position: absolute;
-    right: 30%;
-    top: 18%;
-    font-size: 39px;
+    right: 26.5%;
+    top: 17.5%;
 }
 
 .titreindex{
@@ -626,10 +625,12 @@ position: absolute;
 }
 
 .txtfiche{
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
     color: #2e427e;
-	font-size:1em;
-	width:700px;
+    font-size: 1em;
+    display: list-item;
+    width: 300;
+    padding: 12px;
     left: 6%;
     position: relative;
 }
@@ -785,7 +786,7 @@ body{
 }
 
 .competence_m{
-  font-size:0.8em;
+  font-size:1em;
 }
 
 /* ----------- HTC One ----------- */
