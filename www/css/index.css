@@ -488,6 +488,7 @@ font-size: 1.2em;
     margin: 0 auto;
     text-align: center;
     padding-top: 10px;
+    padding-right: 10px;
     color: white;
 }
 
@@ -743,7 +744,7 @@ blockquote p {
 .txtpro{
 	font-family: 'Roboto', sans-serif;
     color: #2e427e;
-    width: 700px;
+    width: 260;
     left: 5%;
     position: relative;
 }
