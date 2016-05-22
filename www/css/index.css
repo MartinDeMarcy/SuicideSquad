@@ -484,7 +484,7 @@ a {
 }
 
 .titrecate{
-font-size: 1.2em;
+font-size: 1.1em;
     margin: 0 auto;
     text-align: center;
     padding-top: 10px;
@@ -644,9 +644,6 @@ position: absolute;
 }
 
 .ulfiche{
-	width: auto;
-    /* top: 0; */
-    display: inline;
     left: 5%;
     position: relative;
     color: #2e427e;
@@ -684,9 +681,10 @@ blockquote p {
 }
 
 .chezsaur{
-	  font-size: 1em;
+	 font-size: 1em;
     position: relative;
     left: 10px;
+    width: 288px;
     color: #2e427e;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
