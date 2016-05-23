@@ -465,7 +465,7 @@ a {
 }
 
 .bfooter{
-	height: 22%;
+	height: 100%;
 	width:100%;
 	background-image:linear-gradient(#0073ad, #2f4480);
 	
@@ -783,11 +783,10 @@ left: 5%;
 }
 
 .arrowl {
-  font-size: 2em;
-    color: white;
+   font-size: 21px;
     position: absolute;
-    left: 2%;
-    top: 0;
+    color: white;
+    margin-left: 15px;
 }
 
 body{
