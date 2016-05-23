@@ -1,3 +1,6 @@
+
+
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -18,6 +21,7 @@
  */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -132,19 +136,19 @@ img{
 }
 
 .case p{
-	padding: 44px;
+	padding: 15px;
     text-align: left;
-    font-size: 40;
+    font-size: 1em;
     font-weight: 600;
 	color: #2e427e;
 	
 }
 
 .bando p {
-	padding: 8%;
-	font-size: 45px;
-	color: #304682;
-	font-family:Roboto;
+	font-size: 1.2em;
+    margin: 20px;
+    color: #304682;
+    font-family: 'Roboto', sans-serif;
 	
 }
 
@@ -211,21 +215,18 @@ nav ul li:hover {
   transition-timing-function: swing;
   width: 50px;
   height: 50px;
-  position: relative;
-  top: 4.4%;
-  left:2%;
   z-index: 9;
 }
 .openNav:hover {
   cursor: pointer;
 }
 .openNav .icon {
-  transition-duration: 0.2s;
+   transition-duration: 0.2s;
   position: absolute;
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: white;
-  top: 24px;
+  top: 20px;
   left: 10px;
 }
 .openNav .icon:before,
@@ -235,14 +236,14 @@ nav ul li:hover {
   position: absolute;
   content: "";
   width: 30px;
-  height: 2px;
+  height: 3px;
   left: 0px;
 }
 .openNav .icon:before {
-  top: -7px;
+  top: -11px;
 }
 .openNav .icon:after {
-  top: 7px;
+  top: 10px;
 }
 
 .openNav.open .icon {
@@ -299,8 +300,8 @@ a {
     border-width: 1px;
     position: relative;
     transform: rotate(225deg);
-    top: 50px;
-    left: 34px;
+    left: 4%;
+    top: 10px;
 }
 
 .nextR{
@@ -313,18 +314,18 @@ a {
     transform: rotate(45deg);
     position: relative;
     right: 4%;
+    bottom:41px;
     float: right;
 }
 
 .energie{
-	margin: auto;
-    bottom: 15%;
-    font-size: 28px;
+	   font-size: 1em;
     color: white;
-    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
+    position: relative;
+    top: 7px;
 	
 }
 
@@ -416,31 +417,28 @@ a {
 
 .imgvaleur{
 	max-width: 100%;
-    height: 194px;
+    height: 70px;
     width: auto;
-    position: absolute;
-    left: 37%;
-    top: 7%;
+    position:absolute;
+    left:40%;
+    top:8%;
 }
 
 .imgsaur{
 	position: absolute;
     right: 3%;
-    top: 1.9%;
-    height: 74px;
+    top: 1%;
+    height: 32px;
     width: auto;
 }
 
 .titremodule{
-	font-size: 54px;
-    /* text-align: center; */
-    position: relative;
-    bottom: 19%;
+	font-size: 1.5em;
+    margin: 0 auto;
+    padding-top: 6px;
     text-align: center;
-    /* left: 50%; */
-    /* right: 50%; */
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
 }
 
 .ficheslide{
@@ -452,10 +450,12 @@ a {
 }
 
 .titrefiche{
-	text-align:center;
-	font-family: 'Roboto', sans-serif;
-	color:#345994;
-	font-size: 33px;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #345994;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 25px;
     font-weight: 600;
 }
 
@@ -468,7 +468,7 @@ a {
 }
 
 .bfooter{
-	height: 18%;
+	height: 22%;
 	width:100%;
 	background-image:linear-gradient(#0073ad, #2f4480);
 	
@@ -487,15 +487,16 @@ a {
 }
 
 .titrecate{
-position: relative;
-    color: white;
-    bottom: 26%;
+font-size: 1.1em;
+    margin: 0 auto;
     text-align: center;
-    font-size: 26px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: white;
 }
 
 .interet{
-	height: 54.9%;
+	height: 48.9%;
     width: 100%;
     position: relative;
     background-color: white;
@@ -504,12 +505,13 @@ position: relative;
 }
 
 ul li {
-	padding:7%;
-	
+	padding:3%;
+  
 }
 
 .fav{
 	width: auto;
+    height:20px;
     position: absolute;
     top: 19%;
     right: 50%;
@@ -518,6 +520,7 @@ ul li {
 .imgfoot1{
 	width: auto;
     left: 10%;
+    height: 40px;
     bottom: 3%;
     position: absolute;
 }
@@ -526,83 +529,82 @@ ul li {
 	width: auto;
     position: absolute;
     bottom: 3%;
-    left: 30%;
+    height: 40;
+    left: 32%;
 }
 
 .imgfoot3{
 	width: auto;
     position: absolute;
+    height: 40;
     bottom: 3%;
-    left: 50%;
+    right: 32%;
 }
 
 
 .imgfoot4{
 	width: auto;
     bottom: 3%;
-    left: 70%;
+    height: 40;
     position: absolute;
+    right: 10%;
 }
 
 .titrefoot{
 	text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-top: 25px;
-    font-size: 32px;
+    font-size: 1em;
 }
 
 .search{
 	width: 100%;
     position: relative;
-    height: 150px;
-	text-align: center;
-    font-size: 35px;
-	background-color:#edf3ff;
+    height: 90px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #edf3ff;
 	
 }
 
 .casesit{
-	height:23%
 	width:100%;
-	font-size:36px;
 }
 
 .imgmenu{
-	position:absolute;
-	left:0px;
-	height:110px;
-	width:auto;
+position: absolute;
+    left: 0px;
+    height: 50;
+    width: auto;
 }
 
 .defvaleur{
 	width: auto;
     position: absolute;
-    height: 146px;
-    left: 23%;
+    height: 40px;
+    left: 12%;
     top: 7%;
 }
 
 .defv{
 	position: absolute;
-    top: 14%;
-    left: 24%;
+    top: 12.5%;
+    left: 13%;
     color: white;
-    font-size: 34px;
+    font-size: 0.8em;
 }
 
 .dotv{
 	list-style-type: disc;
     color: white;
     position: absolute;
-    left: 30%;
-    top: 18%;
-    font-size: 28px;
+    left: 18%;
+    top: 17.5%;
 }
 
 .compvaleur{
 	position: absolute;
-    height: 146px;
+    height: 40;
     right: 24%;
     width: auto;
     top: 7%;
@@ -610,44 +612,44 @@ ul li {
 
 .compv{
 	position: absolute;
-    right: 11%;
-    top: 14%;
-    font-size: 34px;
+    top: 12.5%;
+    right: 6%;
     color: white;
+    font-size: 0.8em;
 }
 
 .dotc{
 	list-style-type: disc;
     color: white;
     position: absolute;
-    right: 30%;
-    top: 19%;
-    font-size: 28px;
+    right: 26.5%;
+    top: 17.5%;
 }
 
 .titreindex{
 	position: relative;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: bolder;
     text-transform: uppercase;
-    color: #4646AF;
+    color: #2e427e;
 }
 
 .txtfiche{
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
     color: #2e427e;
-	font-size:35px;
-	width:700px;
+    font-size: 1em;
+    display: list-item;
+    width: 260;
+    padding: 17px;
     left: 6%;
     position: relative;
 }
 
 .ulfiche{
-	width: auto;
-    top: 0;
-    left: 0%;
+    left: 5%;
     position: relative;
-	color: #2e427e;
+    color: #2e427e;
 }
 
 blockquote {
@@ -656,7 +658,7 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-    font-size: 17px;
+    font-size: 0.8em;
     font-family: roboto sans-serif;
     font-style: italic;
 }
@@ -673,18 +675,19 @@ blockquote p {
 }
 
 .limenu{
-	transition-duration: 0.25s;
+	    transition-duration: 0.25s;
     display: block;
-    padding: 53px;
-    font-size: 61px;
+    padding: 26px;
+    font-size: 1em;
     color: white;
     letter-spacing: 0.02em;
-    left: 35%;
-    position: relative;
 }
 
 .chezsaur{
-	font-size: 40px;
+	 font-size: 1em;
+    position: relative;
+    left: 10px;
+    width: 288px;
     color: #2e427e;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -742,7 +745,343 @@ blockquote p {
 .txtpro{
 	font-family: 'Roboto', sans-serif;
     color: #2e427e;
-    width: 700px;
-    left: 6%;
+    width: 260;
+    left: 5%;
     position: relative;
 }
+
+.nextRcomp{
+  display: block;
+width: 20px;
+height: 20px;
+border-top: 1px solid grey;
+border-right: 1px solid grey;
+border-width: 1px;
+transform: rotate(45deg);
+position: absolute;
+right: 5%;
+top: 9%;
+float: right;
+}
+
+.nextLcomp{
+  display: block;
+width: 20px;
+height: 20px;
+border-top: 1px solid grey;
+border-right: 1px solid grey;
+border-width: 1px;
+position: absolute;
+transform: rotate(225deg);
+top: 9%;
+left: 5%;
+}
+
+.titrecompvaleur{
+ position: absolute;
+    right: 5%;
+    top: 12.5%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.arrowl {
+   font-size: 2em;
+    position: absolute;
+    color: white;
+   position:absolute;
+   left:2%;
+   top:0;
+}
+
+body{
+  margin:0;
+}
+
+.competence_m{
+  font-size:1em;
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  .competence_m{
+  font-size:0.2em;
+}
+
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
+}
+
+
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+.app {
+    background: url(../img/logo.png) no-repeat center top;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-size: 42%;
+    height: 38px;
+    width: 209px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+
+}
+
+
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .case p {
+        font-size: 2.2em;
+    }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .case p {
+        font-size: 2.2em;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .case p {
+        font-size: 2.2em;
+    }
+}
+
+
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .case p {
+        font-size: 2.5em;
+    }
+
+    .titreindex {
+
+      font-size: 1.5em;
+    }
+
+    .imgvaleur {
+    max-width: 100%;
+    height: 120px;
+    width: auto;
+    position: absolute;
+    left: 43%;
+    top: 8%;
+    }
+
+    .titremodule {
+    font-size: 3em;
+    margin: 0 auto;
+    padding-top: 11px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+
+.imgsaur {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    height: 59px;
+    width: auto;
+}
+
+.bando p {
+    font-size: 2em;
+    margin: 63px;
+    color: #304682;
+    font-family: 'Roboto', sans-serif;
+}
+
+.openNav .icon:before, .openNav .icon:after {
+    transition-duration: 0.5s;
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    left: 0px;
+}
+
+.openNav .icon {
+    transition-duration: 0.2s;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    top: 31px;
+    left: 10px;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .case p {
+        font-size: 2em;
+    padding: 32px;
+    }
+
+}
+

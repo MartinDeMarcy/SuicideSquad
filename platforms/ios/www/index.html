@@ -28,21 +28,32 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
+		<meta charset="UTF-8">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="js/ripple.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/animsition.min.js"></script>
+        <script type="text/javascript" src="js/animpages.js"></script>
         <title>SAUR</title>
     </head>
-    <body>
-        <div class="app">
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+    <body>  
+        <div class="animsition">
+            <div class="background"><img style="max-width: 100%;height:auto;" src="img/background.jpg" height="2000" width="100%"></div>
+                <div class="bloc1">
+                    <div class="valeur"><a href="partial/valeur/valeur.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="1000">
+                        <img src="img/valeurs.png"><p class="titreindex">valeurs</p></a></div>
+                    <div class="competence"><a href="partial/competences/competences.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="1000"><img style="position: relative;left: 18%;" src="img/competences.png"><p class="titreindex">compétences</p></a></div>
+                <div class="app">
+                </div>
+                    <a href="#"><div class="actualite"><img src="img/actualites.png"><p class="titreindex">actualités</p></div></a>
+                    <div class="solutions"><a href="partial/situation/situation.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="1000"><img src="img/situation.png"><p class="titreindex">situations</p></a></div>
+                    <div class="favoris"><a href="favoris.html"><img src="img/bookmark.png"><p class="titreindex">favoris</p></a></div>
+					</div>
+		</div>
+	</body>
 </html>
