@@ -1085,3 +1085,13 @@ body{
 
 }
 
+
+.toto{
+  height:11%;
+  border: 1px solid grey;
+  padding-left:5%;
+  padding-top:10%;
+  font-size: 1em;
+  font-weight: 600;
+  color: #2e427e;
+}
