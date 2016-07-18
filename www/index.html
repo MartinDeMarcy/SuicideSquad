@@ -41,8 +41,9 @@
     <script type="text/javascript" src="js/animpages.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+        var  stockage = localStorage;
         $.getJSON("../../json/generated.json").done(function(data){
-            localStorage.setItem("data", JSON.stringify(data));
+            stockage.setItem("data", JSON.stringify(data));
         });
     });
     </script>

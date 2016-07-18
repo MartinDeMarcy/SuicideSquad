@@ -41,9 +41,14 @@
     <script type="text/javascript" src="js/animpages.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-        $.getJSON("../../json/generated.json").done(function(data){
-            localStorage.setItem("data", JSON.stringify(data));
-        });
+        var  stockage = localStorage;
+
+        stockage.setItem("test", "yolo");
+        console.log(stockage.getItem("test"));
+
+        /*$.getJSON("../../json/generated.json").done(function(data){
+            stockage.setItem("data", JSON.stringify(data));
+        });*/
     });
     </script>
     <title>SAUR</title>

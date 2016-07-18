@@ -40,6 +40,18 @@
   </nav>
   </body>
   <script type="text/javascript">
+    $(document).ready(function(){
+        var  stockage = localStorage;
+
+        stockage.setItem("test", "yolaaaa");
+        console.log(stockage.getItem("test"));
+
+        /*$.getJSON("../../json/generated.json").done(function(data){
+            stockage.setItem("data", JSON.stringify(data));
+        });*/
+    });
+    </script>
+  <script type="text/javascript">
         $(document).ready(function(){
             data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
