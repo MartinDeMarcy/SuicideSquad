@@ -1095,3 +1095,9 @@ body{
   font-weight: 600;
   color: #2e427e;
 }
+
+
+.fav_plein{
+  background-image:url(../img/fav.png) no-repeat;
+  
+}
