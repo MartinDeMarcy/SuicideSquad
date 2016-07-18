@@ -1095,3 +1095,11 @@ body{
   font-weight: 600;
   color: #2e427e;
 }
+
+.t-fav{
+    padding: 12px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 600;
+  color: #2e427e; 
+}
