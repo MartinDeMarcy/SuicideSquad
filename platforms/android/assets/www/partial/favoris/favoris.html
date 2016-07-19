@@ -12,13 +12,13 @@
         <a href="../valeur/valeur.html"><img class="imgmenu" src="../../img/valeurs_blanc.png" height="110" width="100%"><li class="limenu">Valeurs</li></a>
         <a href="../competences/competences.html" ><img class="imgmenu" src="../../img/competences_blanc.png" height="110" width="100%" ><li class="limenu">Compétences</li></a>
         <a href="../situation/situation.html"><img class="imgmenu" src="../../img/situations_blanc.png" height="110" width="100%" ><li class="limenu">Situations</li></a>
-        <a href="favoris.html"><img class="imgmenu" src="../../img/actus_blanc.png"><li class="limenu">Actualités</li></a>
-        <a href="../valeur/valeur.html"><img class="imgmenu" src="../../img/coeur_blanc.png"><li class="limenu">Favoris</li></a>
+        <a href=""><img class="imgmenu" src="../../img/actus_blanc.png"><li class="limenu">Actualités</li></a>
+        <a href="favoris.html"><img class="imgmenu" src="../../img/coeur_blanc.png"><li class="limenu">Favoris</li></a>
       </ul>  
     <div class="wrapper">
       <head>
         <div class="module">
-          <h1 class="titremodule">favoris</h1>
+          <h1 class="titremodule">Favoris</h1>
             <div class="openNav">
                 <div class="icon"></div>
             </div>
@@ -40,22 +40,11 @@
   </nav>
   </body>
   <script type="text/javascript">
-    $(document).ready(function(){
-        var  stockage = localStorage;
-
-        stockage.setItem("test", "yolaaaa");
-        console.log(stockage.getItem("test"));
-
-        /*$.getJSON("../../json/generated.json").done(function(data){
-            stockage.setItem("data", JSON.stringify(data));
-        });*/
-    });
-    </script>
-  <script type="text/javascript">
         $(document).ready(function(){
-            data = JSON.parse(localStorage.getItem("data"));
+          data = JSON.parse(localStorage.getItem("data"));
+          console.log(JSON.parse(localStorage.getItem("data")));
             $.each(data, function(index, value){
-                if (value.fav = true)
+                if (value.fav == true)
                   $("#contacts").append('<a href="../competences/'+ value.path +'"><div class="case"><p>'+ value.title +'</p></div></a>');
             });
         });

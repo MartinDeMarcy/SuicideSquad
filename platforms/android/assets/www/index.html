@@ -42,13 +42,9 @@
     <script type="text/javascript">
     $(document).ready(function(){
         var  stockage = localStorage;
-
-        stockage.setItem("test", "yolo");
-        console.log(stockage.getItem("test"));
-
-        /*$.getJSON("../../json/generated.json").done(function(data){
+        $.getJSON("../../json/generated.json").done(function(data){
             stockage.setItem("data", JSON.stringify(data));
-        });*/
+        });
     });
     </script>
     <title>SAUR</title>
