@@ -6,13 +6,18 @@ $(document).ready(function(){
 			if (id == value.index)
 			{
 				if (value.fav == true)
+				{
+					$(".fav").attr('src', '../../../img/fav_vide.png');			
 					value.fav = false;
+				}
 				else
+				{
+					$(".fav").attr('src', '../../../img/fav.png');	
 					value.fav = true;
+				}
 			}
 			data[index] = value;
 		});
 		localStorage.setItem("data", JSON.stringify(data));
-		console.log(JSON.parse(localStorage.getItem("data")));
     })
 });
