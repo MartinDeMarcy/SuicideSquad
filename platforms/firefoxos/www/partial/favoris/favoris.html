@@ -41,27 +41,11 @@
   </body>
   <script type="text/javascript">
         $(document).ready(function(){
-
-            $.getJSON("../../json/generated.json").done(function(data){
-
-                localStorage.setItem("data", JSON.stringify(data));
-              
-                $.each(data, function(index, value){
-                    if (data.fav = true)
-                    {
-                        $("#contacts").append('<div class="case"'+
-                           '<a href="../competences/' +
-                            value.path +
-                            '"<p>' +
-                            value.title + 
-                            "</p></a></div>"
-                        );
-                    }
-
-                });
-
+            data = JSON.parse(localStorage.getItem("data"));
+            $.each(data, function(index, value){
+                if (value.fav = true)
+                  $("#contacts").append('<a href="../competences/'+ value.path +'"><div class="case t-fav">'+ value.title +'</div></a>');
             });
-
         });
     </script>
     <script>

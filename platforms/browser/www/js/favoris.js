@@ -1,4 +1,5 @@
 $(document).ready(function(){
+<<<<<<< HEAD
 	data = JSON.parse(localStorage.getItem("data"));
 	$(".bookmark").click(function(){
 		$.each(data, function(index, value){
@@ -14,5 +15,12 @@ $(document).ready(function(){
 		});
 		localStorage.setItem("data", JSON.stringify(data));
 		console.log(JSON.parse(localStorage.getItem("data")));
+=======
+    data = JSON.parse(localStorage.getItem("data"));
+    $("#bookmark").click(function(){
+    	$.each(data, function(index, value){
+		    
+    	});
+>>>>>>> f09e0bb6fafe4d9c1ef8187a1a6dcfa49c29882d
     })
 });
