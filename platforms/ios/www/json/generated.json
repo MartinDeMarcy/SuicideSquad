@@ -5,14 +5,15 @@
     "mainTitle": "Donner du sens",
     "title": "Savoir formaliser le plan stratégique",
     "path": "fiche_formaliser_plan/fiche_savoirformaliserplan.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirformaliserambition",
     "keywords": "ambition mise en place opérationnel opérations après plan stratégique enjeu objectifs territoire actions mener",
     "mainTitle": "Donner du sens",
     "title": "Savoir formaliser l'ambition du territoire / service",
-    "path": "fiche_formaliser_amb/fiche_savoirformaliserambition.html"
+    "path": "fiche_formaliser_amb/fiche_savoirformaliserambition.html",
+    "fav" : false
   },
 
   {
@@ -21,7 +22,7 @@
     "mainTitle": "Transmettre de l'énergie",
     "title": "Savoir valoriser individuellement",
     "path": "fiche_valoriser_ind/fiche_savoirvaloriserindividu.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirmesurercollectif",
@@ -29,7 +30,7 @@
     "mainTitle": "Transmettre de l'énergie",
     "title": "Savoir mesurer le progrès en collectif",
     "path": "fiche_mesurer_coll/fiche_savoirmesurercollectif.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirfetersucces",
@@ -37,7 +38,7 @@
     "mainTitle": "Transmettre de l'énergie",
     "title": "Savoir fêtez le succès",
     "path": "fiche_feter_succes/fiche_savoirfetersucces.html",
-    "fav" : true
+    "fav" : false
   },
  
   {
@@ -46,7 +47,7 @@
     "mainTitle": "Développer l'exigence bienveillante",
     "title": "Savoir fixer les objectifs motivants",
     "path": "fiche_fixer_obj/fiche_savoirfixerobjectif.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirformaliserlettre",
@@ -54,7 +55,7 @@
     "mainTitle": "Développer l'exigence bienveillante",
     "title": "Savoir formaliser une lettre de mission",
     "path": "fiche_formaliser_lettre/fiche_savoirformaliserlettre.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirconcentrerenergie",
@@ -62,7 +63,7 @@
     "mainTitle": "Développer l'exigence bienveillante",
     "title": "Savoir concentrer l'énergie des équipes sur le nombre limité des priorités",
     "path": "fiche_concentrer_energie/fiche_savoirconcentrerenergie.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirdecliner",
@@ -70,7 +71,7 @@
     "mainTitle": "Développer l'exigence bienveillante",
     "title": "Savoir décliner des priorités en actions concrètes",
     "path": "fiche_decliner/fiche_savoirdecliner.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirrealiser1",
@@ -78,7 +79,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Savoir réaliser une intégration apprenante 1/2",
     "path": "fiche_realiser/fiche_savoirrealiser1.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirtraitererreur",
@@ -86,7 +87,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Traiter une erreur pédagogique",
     "path": "fiche_traiter_err/fiche_savoirtraitererreur.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirbriefercollaborateur",
@@ -94,7 +95,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Briefer un collaborateur avant une action de jeu",
     "path": "fiche_briefer_collab/fiche_savoirbriefercollaborateur.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirrealiserdebriefing",
@@ -102,7 +103,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Réaliser un debriefing apprenant",
     "path": "fiche_realiser_deb/fiche_savoirrealiserdebriefing.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoiraccompagnerprojet",
@@ -110,7 +111,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Savoir accompagner le projet professionnel",
     "path": "fiche_accomp_projet/fiche_savoiraccompagnerprojet.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": 36,
@@ -118,7 +119,7 @@
     "mainTitle": "Proféssionaliser ses équipes",
     "title": "Savoir accompagner la formation",
     "path": "",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirpiloter",
@@ -126,7 +127,7 @@
     "mainTitle": "Manager la transversalité",
     "title": "Savoir piloter un projet transverse",
     "path": "fiche_piloter/fiche_savoirpiloter.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoiranimer",
@@ -134,7 +135,7 @@
     "mainTitle": "Manager la transversalité",
     "title": "Savoir animer un groupe de travail transverse",
     "path": "fiche_animer/fiche_savoiranimer.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoigerer",
@@ -142,7 +143,7 @@
     "mainTitle": "Manager la transversalité",
     "title": "Savoir gérer les intéractions avec d'autres services",
     "path": "fiche_gerer/savoigerer.html",
-    "fav" : true
+    "fav" : false
   },
 
   {
@@ -151,7 +152,7 @@
     "mainTitle": "Faire vivre les valeurs",
     "title": "Savoir expliquer les valeurs",
     "path": "fiche_expliquer/fiche_savoirexpliquer.html",
-    "fav" : true
+    "fav" : false
   },
   {
      "index": "savoirrappeler",
@@ -159,7 +160,7 @@
     "mainTitle": "Faire vivre les valeurs",
     "title": "Savoir rappeler une règle sans démotiver",
     "path": "fiche_rappeler/fiche_savoirrappeler.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirrecadrer",
@@ -167,7 +168,7 @@
     "mainTitle": "Faire vivre les valeurs",
     "title": "Savoir recadrer les dérives",
     "path": "fiche_recadrer/fiche_savoirrecadrer.html",
-    "fav" : true
+    "fav" : false
   },
   {
     "index": "savoirtraiterconflit",
@@ -175,6 +176,6 @@
     "mainTitle": "Faire vivre les valeurs",
     "title": "Savoir traiter un conflit entre deux collaborateur",
     "path": "fiche_traiter_conflit/fiche_savoirtraiterconflit.html",
-    "fav" : true
+    "fav" : false
   }
 ]

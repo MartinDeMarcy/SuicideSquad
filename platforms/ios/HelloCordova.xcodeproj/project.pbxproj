@@ -20,6 +20,8 @@
 		A32DBB077BA04F598290FDD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592B932CFE924858A8D1ACD9 /* SystemConfiguration.framework */; };
 		ED5361BEE8D546C3873EC82F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11098EB4DD024A58964BE03E /* CoreTelephony.framework */; };
 		24EFE335D4BC49948D783EFA /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8437AD30D4431B27BDB4E /* Pushbots.framework */; };
+		03AB051F23234CF89E922AA5 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A745D89C0F54988B5FB9C49 /* CDVDevice.m */; };
+		88C7A9937F3040EF8FF10996 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 158DA424898A49A69C6BF842 /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		592B932CFE924858A8D1ACD9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		11098EB4DD024A58964BE03E /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		00A8437AD30D4431B27BDB4E /* Pushbots.framework */ = {isa = PBXFileReference; name = "Pushbots.framework"; path = "HelloCordova/Plugins/pushbots-cordova-plugin/Pushbots.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7A745D89C0F54988B5FB9C49 /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3B772241F69A4C90989FF861 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		158DA424898A49A69C6BF842 /* CDVLogger.m */ = {isa = PBXFileReference; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		1BDF85DB73C1468A85640DA6 /* CDVLogger.h */ = {isa = PBXFileReference; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,10 @@
 			children = (
 				D91FE0EF7E0244DF9DC89BC8 /* PushbotsPlugin.m */,
 				EB33EC980B0E4EBD803BEF6F /* PushbotsPlugin.h */,
+				7A745D89C0F54988B5FB9C49 /* CDVDevice.m */,
+				3B772241F69A4C90989FF861 /* CDVDevice.h */,
+				158DA424898A49A69C6BF842 /* CDVLogger.m */,
+				1BDF85DB73C1468A85640DA6 /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -292,6 +302,8 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				30E81F3091A74EC196C3D36A /* PushbotsPlugin.m in Sources */,
+				03AB051F23234CF89E922AA5 /* CDVDevice.m in Sources */,
+				88C7A9937F3040EF8FF10996 /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,13 @@ module.exports = [
         "clobbers": [
             "PushbotsPlugin"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "id": "cordova-plugin-device.device",
+        "clobbers": [
+            "device"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -18,7 +25,9 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.1",
     "cordova-plugin-android-support-v4": "21.0.1",
-    "pushbots-cordova-plugin": "1.3.8"
+    "pushbots-cordova-plugin": "1.3.8",
+    "cordova-plugin-device": "1.1.2",
+    "cordova-plugin-console": "1.0.3"
 };
 // BOTTOM OF METADATA
 });
