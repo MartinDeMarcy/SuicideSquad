@@ -33,7 +33,7 @@
           data-animsition-out-class="fade-out-right-sm"
           data-animsition-out-duration="800">
             <div class="casesit">
-            <section class="topcoat-list__container" id="contacts"><input class="delete" id="yolo" type="button" value="supprimer"><div class="topcoat-list"></div></section>
+            <section class="topcoat-list__container" id="contacts"><div class="topcoat-list"></div></section>
       </div>
     </div>
     </div>
@@ -44,28 +44,49 @@
           data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
                 if (value.fav == true)
-                  $("#contacts").append('<a href="../competences/'+ value.path +'"><div class="case"><p>'+ value.title +'</p></div></a><input class="delete" id="' + value.index + '" type="button" value="Supprimer">');
+                {
+                  var  texte = $('<p>').attr({
+                    id: "target"
+                  });
+                  var div = $('<div>').attr({
+                    class: "case"
+                  });
+                  var path = "../competences/" + value.path
+                  var ref = $('<a>').attr({
+                    href: path,
+                    id:  "link"
+                  });
+                   var button = $('<input/>').attr({
+                        type: "button",
+                        class: "delete",  
+                        id: value.index,
+                        value: 'Supprimer'
+                    });
+                   $("#contacts").append(div);
+                   $(".case").append(ref);
+                   $("#link").append(texte);
+                   $("#target").append(value.title);
+                   $("#contacts").append(button); 
+                }
+
             });
+
+            $(".delete").click(function(){
+            id = $(this).attr("id");
+            data = JSON.parse(localStorage.getItem("data"));
+            $.each(data, function(index, value){
+              if (id == value.index)
+              {
+                value.fav = false;
+
+              }
+              data[index] = value;
+            })
+            localStorage.setItem("data", JSON.stringify(data));
+           location.reload();
+          })
             
         });
-    </script>
-    <script type="text/javascript">
-      $(".delete").click(function(){
-        id = $(this).attr("id");
-          console.log(id);
-        data = JSON.parse(localStorage.getItem("data"));
-        $.each(data, function(index, value){
-          
-          if (id == value.index)
-          {
-            value.fav = false;
-          }
-          data[index] = value;
-        })
-        localStorage.setItem("data", JSON.stringify(data));
-        alert("yolo");
-        location.reload();
-      })
     </script>
     <script>
     $(".openNav").click(function() {

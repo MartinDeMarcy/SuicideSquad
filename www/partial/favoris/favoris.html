@@ -42,19 +42,21 @@
   <script type="text/javascript">
         $(document).ready(function(){
           data = JSON.parse(localStorage.getItem("data"));
+
             $.each(data, function(index, value){
                 if (value.fav == true)
                 {
                   var  texte = $('<p>').attr({
-                    id: "target"
+                    id: index + 30
                   });
                   var div = $('<div>').attr({
-                    class: "case"
+                    class: "case",
+                    id: index + 10
                   });
                   var path = "../competences/" + value.path
                   var ref = $('<a>').attr({
                     href: path,
-                    id:  "link"
+                    id:  index + 20
                   });
                    var button = $('<input/>').attr({
                         type: "button",
@@ -63,9 +65,9 @@
                         value: 'Supprimer'
                     });
                    $("#contacts").append(div);
-                   $(".case").append(ref);
-                   $("#link").append(texte);
-                   $("#target").append(value.title);
+                   $("#" + (index + 10).toString()).append(ref);
+                   $("#" + (index + 20).toString()).append(texte);
+                   $("#" + (index + 30).toString()).append(value.title);
                    $("#contacts").append(button); 
                 }
 
@@ -76,10 +78,7 @@
             data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
               if (id == value.index)
-              {
                 value.fav = false;
-
-              }
               data[index] = value;
             })
             localStorage.setItem("data", JSON.stringify(data));
