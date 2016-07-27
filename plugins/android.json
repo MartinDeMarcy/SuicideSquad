@@ -13,9 +13,6 @@
         "pushbots-cordova-plugin": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
