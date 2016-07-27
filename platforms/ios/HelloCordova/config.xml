@@ -18,12 +18,13 @@
     <feature name="PushbotsPlugin">
         <param name="ios-package" value="PushbotsPlugin" />
     </feature>
-    <feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
-    </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <icon density="mdpi" height="57" platform="ios" src="www/img/splash.png" width="57" />
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

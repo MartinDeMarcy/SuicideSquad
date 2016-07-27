@@ -7,6 +7,7 @@
     <feature name="Device">
         <param name="firefoxos-package" value="Device" />
     </feature>
+    <icon density="mdpi" height="57" platform="ios" src="www/img/splash.png" width="57" />
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
