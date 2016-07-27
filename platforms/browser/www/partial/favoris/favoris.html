@@ -78,16 +78,12 @@
             data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
               if (id == value.index)
-              {
                 value.fav = false;
-
-              }
               data[index] = value;
             })
             localStorage.setItem("data", JSON.stringify(data));
            location.reload();
           })
-            
         });
     </script>
     <script>
