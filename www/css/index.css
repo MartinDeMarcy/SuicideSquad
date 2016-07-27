@@ -1101,3 +1101,7 @@ body{
   background-image:url(../img/fav.png) no-repeat;
   
 }
+
+.delete{
+  margin-right: 20px;
+}
