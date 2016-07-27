@@ -12,6 +12,8 @@
         <param name="android-package" value="com.pushbots.plugin.PushbotsPlugin" />
     </feature>
     <allow-intent href="market:*" />
+    <icon density="ldpi" src="www/img/splash.png" />
+    <icon density="mdpi" height="57" platform="ios" src="www/img/splash.png" width="57" />
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

@@ -39,69 +39,13 @@
     </div>
   </nav>
   </body>
-  <!-- <script type="text/javascript">
-     $(document).ready(function(){
-      data = JSON.parse(localStorage.getItem("data"));
-      alert("yolo");
-      $.get(
-          'favoris.html', // Le fichier cible côté serveur.
-           data, // Nous utilisons false, pour dire que nous n'envoyons pas de données.
-          'text' // Format des données reçues.
-      );
-
-
-     });
-  </script> -->
   <script type="text/javascript">
         $(document).ready(function(){
           data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
                 if (value.fav == true)
-                {
-                  var  texte = $('<p>').attr({
-                    id: "target"
-                  });
-                  var div = $('<div>').attr({
-                    class: "case"
-                  });
-                  var path = "../competences/" + value.path
-                  var ref = $('<a>').attr({
-                    href: path,
-                    id:  "link"
-                  });
-                   var button = $('<input/>').attr({
-                        type: "button",
-                        class: "delete",  
-                        id: value.index,
-                        value: 'Supprimer'
-                    });
-                   $("#contacts").append(div);
-                   $(".case").append(ref);
-                   $("#link").append(texte);
-                   $("#target").append(value.title);
-                   $("#contacts").append(button); 
-                }
-
+                  $("#contacts").append('<a href="../competences/'+ value.path +'"><div class="case"><p>'+ value.title +'</p></div></a>');
             });
-
-            $(".delete").click(function(){
-            id = $(this).attr("id");
-              console.log(id);
-            data = JSON.parse(localStorage.getItem("data"));
-            $.each(data, function(index, value){
-              console.log(id);
-              if (id == value.index)
-              {
-                alert("yolo");
-                value.fav = false;
-
-              }
-              data[index] = value;
-            })
-            localStorage.setItem("data", JSON.stringify(data));
-           location.reload();
-          })
-            
         });
     </script>
     <script>

@@ -11,6 +11,7 @@
         "url": "http://cordova.io"
     },
     "icons": {
+        "57": "/icon/icon-57.png",
         "60": "/icon/icon-60.png",
         "128": "/icon/icon-128.png"
     }

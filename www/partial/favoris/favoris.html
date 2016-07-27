@@ -44,48 +44,8 @@
           data = JSON.parse(localStorage.getItem("data"));
             $.each(data, function(index, value){
                 if (value.fav == true)
-                {
-                  var  texte = $('<p>').attr({
-                    id: "target"
-                  });
-                  var div = $('<div>').attr({
-                    class: "case"
-                  });
-                  var path = "../competences/" + value.path
-                  var ref = $('<a>').attr({
-                    href: path,
-                    id:  "link"
-                  });
-                   var button = $('<input/>').attr({
-                        type: "button",
-                        class: "delete",  
-                        id: value.index,
-                        value: 'Supprimer'
-                    });
-                   $("#contacts").append(div);
-                   $(".case").append(ref);
-                   $("#link").append(texte);
-                   $("#target").append(value.title);
-                   $("#contacts").append(button); 
-                }
-
+                  $("#contacts").append('<a href="../competences/'+ value.path +'"><div class="case"><p>'+ value.title +'</p></div></a>');
             });
-
-            $(".delete").click(function(){
-            id = $(this).attr("id");
-            data = JSON.parse(localStorage.getItem("data"));
-            $.each(data, function(index, value){
-              if (id == value.index)
-              {
-                value.fav = false;
-
-              }
-              data[index] = value;
-            })
-            localStorage.setItem("data", JSON.stringify(data));
-           location.reload();
-          })
-            
         });
     </script>
     <script>

@@ -26,8 +26,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.1",
     "cordova-plugin-android-support-v4": "21.0.1",
     "pushbots-cordova-plugin": "1.3.8",
-    "cordova-plugin-device": "1.1.2",
-    "cordova-plugin-console": "1.0.3"
+    "cordova-plugin-console": "1.0.3",
+    "cordova-plugin-device": "1.1.2"
 };
 // BOTTOM OF METADATA
 });
